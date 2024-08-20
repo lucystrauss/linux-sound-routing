@@ -6,6 +6,13 @@ https://jackclient-python.readthedocs.io/en/0.5.4/
 This code uses the following example as a starting point:
 https://jackclient-python.readthedocs.io/en/0.5.4/examples.html#pass-through-client
 
+You will need:
+- NumPy
+- JACK and jackctl installed on your system (probably not in Conda environment?)
+- JACK-Client for Python package (in your Conda environment if using Conda)
+- NB that even though you will not need to separately install CFFI as it is included with JACK-Client installation
+
+
 *Steps to run client-test-just-jack.ipynb:
 1) open jackctl, choose sound device settings, click start/play
 3) open client-test-just-jack.ipynb
